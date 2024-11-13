@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Music Player</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="player">
+    <!-- Song Information Display -->
+    <div class="song-info">
+      <h2 id="song-title">Song Title</h2>
+      <h3 id="song-artist">Artist</h3>
+    </div>
+
+    <!-- Audio Element -->
+    <audio id="audio-player" src=""></audio>
+
+    <!-- Playback Controls -->
+    <div class="controls">
+      <button onclick="prevSong()">⏮️</button>
+      <button onclick="togglePlayPause()">⏯️</button>
+      <button onclick="nextSong()">⏭️</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
